@@ -71,7 +71,7 @@ export class AdicionarExameComponent implements OnInit {
 
 
 
-    this.router.navigate(['dashboard/lista-exames']);
+    this.router.navigate(['dashboard']);
   }
 
   onCancel() {
