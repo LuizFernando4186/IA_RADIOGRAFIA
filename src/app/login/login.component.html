@@ -1,7 +1,7 @@
 <body>
     <div class="superior">
         <div class="img_logo">
-            <img class="img_responsivo" src="../../assets/decera_logo.png">
+            <img class="img_responsivo" src="../../assets/decera_logo_large.png">
         </div>
         <div class="form">
             <form [formGroup]="form">
@@ -12,6 +12,7 @@
     </div>
 
     <div class="body">
+
         <div>
             <h2 id="texto">Chega de demora, <br>
                 pensamos na entrega rápida <br>
@@ -22,6 +23,10 @@
         <div class="vitrine">
             <img *ngIf="this.contador == 0" class="img" src="/assets/30534.png">
             <img *ngIf="this.contador == 1" class="img" src="/assets/946328.png">
+        </div>
+
+        <div>
+            <img class="raio_x" src="../../assets/xray_sequence_processing.png">
         </div>
     </div>
 </body>

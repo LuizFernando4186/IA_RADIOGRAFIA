@@ -8,7 +8,14 @@
 
 
 .img_logo img {
-    max-height: 40px;
+    max-height: 120px;
+}
+
+.img_responsivo{
+    width: 80px;
+    height: 100px;
+    margin-left: 20px;
+    
 }
 
 .superior button {
@@ -17,10 +24,30 @@
 }
 
 
+.raio_x{
+    margin-top: 0%;
+    width: 50%;
+    height: 150px;
+
+}
+
 .body {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: center;
+    vertical-align: top;
+    
+}
+
+#texto {
+    
+    margin-left: 0px;
+    background: rgb(236,116,4);
+    background: linear-gradient(90deg, rgba(236,116,4,1) 7%, rgba(236,116,4,0.6587009803921569) 30%, rgba(255,255,255,0) 100%);
+    height: fit-content;
+    width: 35%;
+    padding: 15px 15px 15px 150px;
+
 }
 
 
@@ -84,4 +111,21 @@ h2 {
 .vitrine .img {
     height: 50vh;
     width: 50vw;
+}
+
+@media only screen and (max-device-width: 768px) {
+    
+    .img_responsivo{
+        width: 60px;
+        height: 80px;
+        margin-left: 20px;        
+    }
+
+    .form {
+        width: 15vw;
+        margin-left: 50%;
+        margin-right: 5%;
+        display: flex;
+    }
+
 }

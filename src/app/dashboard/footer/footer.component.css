@@ -8,6 +8,12 @@
     background-color: #F86D08;
 }
 
+
+
+.footer .texto{
+    font-size: 16px;
+}
+
 .footer span h1 {
     text-align: center;
     align-self: center;
@@ -20,9 +26,14 @@
 }
 
 span h2 {
-    text-align: center;
+    text-align: left;
 }
 
 span p, h2 {
     color: #ffffff;
 }
+
+p{
+    margin: 0;
+}
+
